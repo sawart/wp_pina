@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h3 {
+	margin: 0 0 2em 0;
+}
+
+h4 {
+	margin-top: 2em;
+}
+
+
+.screen-reader-response {
+	display: none;
+}
+
+#mainNav .navbar-toggler {
+	color: #373737;
+	border-color: #373737;
+}
+
+
+.carousel-inner {
+	height: 80vh;
+} 
+
+.about-section, .signup-section, .masthead {
+	background: none;
+	padding: 4rem 0;
+}
+
+.about-section p {
+    margin-bottom: 3rem;
+}
+
+.green {
+	background: #c3d998;
+}
+
+.red, .btn-primary {
+	background: #da4625;
+}
+
+.turkis {
+	background: #0aabab;
+}
+
+#mainNav.navbar-shrink .nav-link.active {
+	color: #da4625;
+	border-bottom: .25rem solid #da4625;
+}
+
+#mainNav.navbar-shrink .nav-link:hover, .text-primary {
+	color: #da4625 !important;
+}
+
+.btn-primary:hover {
+	background: #373737;
+}
+
+.contact-section .card hr {
+	border-color: #da4625;
+}
+
+.card {
+	background: #0aabab;
+	background: -moz-linear-gradient(-45deg, #0aabab 1%, #c3d998 100%);
+	background: -webkit-linear-gradient(-45deg, #0aabab 1%,#c3d998 100%);
+	background: linear-gradient(135deg, #0aabab 1%,#c3d998 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0aabab', endColorstr='#c3d998',GradientType=1 );
+	color: #FFF;
+	margin-bottom: 2em;
+}
+
+.contact-section .card {
+	background: transparent;
+	color: #FFF;
+}
+
+.card-text {
+	height: 130px;
+}
+
+.jumbotron-fluid {
+	background: #FFF;
+	box-shadow: 3px 3px 10px #CCC;
+	height: 350px;
+}
+
+.contact-section .card {
+    border: 0;
+    border-bottom: .25rem solid #da4625;
+}
+
+.copyright a, .contact-section  a, .contact-section .text-primary, #mainNav .nav-link {
+	color: #FFF;
+}
+
+.subpage a {
+	color: #373737 !important;
+}
+
+.popup .popuptext {
+	visibility: hidden;
+	margin: 5em;
+	width: 100%;
+	height: 100%;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -80px;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.img-thumbnail {
+	border: none !important;
+}
+
+@media (min-width: 992px) {
+	.projects-section .project-text hr {
+		border-color: #FFF;
+		border-width: .25rem;
+		width: 30%;
+	}
+	
+	.masthead {
+		height: 80vh;
+		padding: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	#mainNav .nav-link {
+		color: #373737;
+	}
+}
+
+@media (max-width: 1024px) {
+	 .carousel-inner {
+		height: auto;
+	} 
+}
+
+@media (max-width: 768px) {
+	.masthead {
+		padding: 8em 0 0 0 !important;
+		min-height: 20rem;
+	}
+	
+	.about-section, .signup-section {
+		padding-top: 6em;
+	}
+	
+	.navbar-brand img {
+		width: 200px;	
+	}
+}
+
+
